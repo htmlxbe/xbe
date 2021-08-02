@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meat charset="utf-8">
+    <title>Programming</title>
+</head>
+
+<body style ="background-color : white; color: black;">
+<input type="button" value="배경 어두움" onclick="
+if(this.value === '배경 밝음'){
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    this.value = '배경 어두움'
+} else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    this.value = '배경 밝음';
+}
+">
+<h1>Programming</h1>
+<o1><strong><font size="19px;">내 공부 계획</strong></font> 
+    <li>Pyhton 기본문법완료, 웹 크롤링 공부중</li> 
+    <li>HTML 기본문법완료</li>
+    <li>Javascript 기본문법완료</li> 
+    <li><u>Java  기본문법 배우는중</u></li>
+    <li>PHP 미정</li>
+    <li>SQL 미정</li>
+</o1>
+
+<p>AM: 09:00 ~ 12:00 자바 공부</p>
+<p>PM: 13:00 ~ 17:00 자바스크립트 정규식 & 파이썬 정규식 공부</p>
+<p>PM: 17:00 ~ 21:00 휴식 및 운동</p>
+<p>PM: 21:00 ~ 24:00 자바 복습 및 PHP 공부</p>
+
+<img src="time.PNG">
+<h2>Memo</h2>
+<button type="button" onclick="document.write('<p>1. HTML : 문장과\
+문장사이 공백을 두고 싶을땐 style=\'margin-top:40px;\' 한다\
+<p>2. HTML : 이미지 삽입 img src=\'이미지이름\'.\'확장명\'을 한다.</p>\
+<p>3. HTML : p 태그와 br 태그가 있다.\
+<p>4. HTML : strong : 굵게 , u : 밑줄, font size=글자크기 입력하면된다.\
+<p>5. HTML : 목차를 만들때 사용시 : ul(부모) li(자식) 태그를 사용한다.\
+<P>6. HTML : 테이블만드는법 : table tr, td 를 사용한다.<br>\
+예를들면 (table)테이블만드는함수 (tr)제목 (td)내용이다.\
+<p><a href=a1.html>이전 페이지</a></p>')">HTML 메모보기</button>
+
+</body>
+</html>
